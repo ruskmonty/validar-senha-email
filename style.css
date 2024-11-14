@@ -1,0 +1,138 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+} 
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 412px;
+    height: 917px;
+    border: solid 1px #000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.btn-google{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-google p{
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-google img{
+    width: 37px;
+    height: 37px;
+}
+
+.email input{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center; 
+    margin: 25px;
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.senha input{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: 25px;font-family: "Inclusive Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.ou{
+   font-family: "imprima ", sans-serif;
+    
+}
+
+.btn-login{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center; 
+    margin: 25px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.btn-login p{
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.email input::placeholder{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-family: "Inclusive Sans ", sans-serif;
+    letter-spacing: 2px;
+}
+
+.senha input::placeholder{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    
+    
+}
+
+.logon{
+    font-family: "Inter", sans-serif;
+    color: blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+.logon, .redefinir{
+    font-family: "Inter", sans-serif;
+    color: blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+
+.criar{
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #474747;
+}
